@@ -20,3 +20,5 @@ Run node index.js to start the bot.
 # Contributing
 
 To contribute to this repository please submit a pull request with your new additions / changes.
+
+**Ps:** This is just a simple bot nothing special
