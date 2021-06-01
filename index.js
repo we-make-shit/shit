@@ -1,9 +1,8 @@
-
+const config = require('./config.json');
 const commando = require('../src');
 const path = require('path');
 const oneLine = require('common-tags').oneLine;
 const sqlite = require('sqlite');
-const token = require('./auth').token;
 
 const client = new commando.Client({
 	owner: config.ownerid,
