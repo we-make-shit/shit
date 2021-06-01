@@ -1,5 +1,5 @@
 const config = require('./config.json');
-const commando = require('../src');
+const commando = require('discord.js-commando');
 const oneLine = require('common-tags').oneLine;
 const sqlite = require('sqlite');
 
