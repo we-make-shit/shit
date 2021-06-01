@@ -9,5 +9,10 @@ ehh i'll make this into a **shit** discord bot
 
 Run `npm install`
 Rename config.example.json to config.json.
+
+
 Fill the config file out.
+
+
+
 Run node index.js to start the bot.
