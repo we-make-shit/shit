@@ -2,6 +2,7 @@ const config = require('./config.json');
 const commando = require('discord.js-commando');
 const oneLine = require('common-tags').oneLine;
 const sqlite = require('sqlite');
+const path = require('path');
 
 const client = new commando.Client({
 	owner: config.ownerid,
@@ -52,7 +53,6 @@ client.setProvider(
 	sqlite.open(path.join(__dirname, 'database.sqlite3')).then(db => new commando.SQLiteProvider(db))
 ).catch(console.error);
 
-const path = require('path');
 
 client.registry
     // Registers your custom command groups
