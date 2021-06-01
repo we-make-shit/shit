@@ -15,6 +15,6 @@ module.exports = {
             'What you up to.'
         ];
 
-        message.reply(phrases[Math.floor(Math.random()*phrases.length)]);//replies to their message using math to randomise the response sent
+        message.channel.send(phrases[Math.floor(Math.random()*phrases.length)]);//replies to their message using math to randomise the response sent
         },
 };
